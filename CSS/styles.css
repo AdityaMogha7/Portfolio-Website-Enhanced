@@ -1,0 +1,233 @@
+                                                                                                    /* Colors Used
+                                                                                                    {
+                                                                                                        Background Color- #E3F4F4
+                                                                                                        Paragraph color- #66bfbf
+                                                                                                        Div Bg Color- #F8F6F4
+                                                                                                        Contact Form Bg Color- #eaf6f6
+                                                                                                        Dark Heading Color- #116A7B
+
+                                                                                                    } */
+
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-BoldItalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-Light.otf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-LightItalic.otf');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-Medium.otf');
+    font-weight:400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-MediumItalic.otf');
+    font-weight:400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-Regular.otf');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lemon Milk";
+    src: url('./Fonts/LemonMilk/LEMONMILK-RegularItalic.otf');
+    font-weight:normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "montserrat";
+    src: url('./Fonts/Montserrat/montserrat.regular.ttf');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "montserrat";
+    src: url('./Fonts/Montserrat/montserrat.bold.ttf');
+    font-weight:bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Sora";
+    src: url('./Fonts/Sora/Sora-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #E3F4F4;
+}
+p{
+    font-size: 13px;
+    font-family: "Sora";
+    color: #66bfbf;
+}
+h1{
+    font-family:"montserrat";
+    color: #66bfbf;
+}
+h2{
+    font-family:"montserrat";
+    color: #66bfbf;
+}
+hr{
+    border-color: #D4D4D4;
+    border-style: none;
+    border-top-style: dotted;
+    width: 4%;
+    border-width: 5px;
+}
+table{
+    border-color: #66bfbf;
+}
+.profile-pic{
+    height: 175px;
+    border:3px solid #116A7B;
+    border-radius: 100%;
+    filter: drop-shadow(3px 3px 10px black);
+}
+a{
+    color:#116A7B;
+}
+h3{
+    font-family: "montserrat";
+    color: #66bfbf;
+}
+li{
+    font-size: 13px;
+    font-family: "Sora";
+    color: #116A7B;
+}
+td{
+    font-family: "Sora";
+    color: #116A7B;
+}
+th{
+    font-family: "Sora";
+    color: #116A7B;
+    font-size: 20px;
+}
+.skills{
+    font-size: 13px;
+}
+#name{
+    font-family:"Lemon Milk";
+    font-size: 40px;
+}
+#name:hover{
+    font-size: 40px;
+    color: #116A7B;
+}
+label{
+    color:#116A7B;
+    font-family: "montserrat";
+    font-weight: bold;
+}
+#submit{
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    padding: 12px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+#textbox{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:2px solid#116A7B;
+    background-color: transparent;
+}
+#textbox:focus{
+    outline: none;
+}
+#form_table{
+    background-color: #eaf6f6;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    border-style: dotted;
+    border-width: 4px;
+}
+.h3_links{
+    font-family:"montserrat";
+    color: #66bfbf;
+}
+.h3_links:hover{
+    font-family:"montserrat";
+    color: #116A7B;
+}
+.nav_button{
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border: none;
+    font-family: "montserrat";
+    font-weight: bold;
+    float: right;
+}
+.nav_button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.box-container{
+    background-color: #F8F6F4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px #D2E9E9);
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contact-box{
+    background-color: #F8F6F4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px #D2E9E9);
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
