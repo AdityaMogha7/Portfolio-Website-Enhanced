@@ -74,8 +74,16 @@
     font-weight: normal;
     font-style: normal;
 }
+html {
+    scroll-snap-type: y mandatory;
+    /* scroll-padding-top: 50px; */
+}
 body {
-    background-color: #E3F4F4;
+    /* background: linear-gradient(to right bottom, #001432, #013050, #084f6e, #1e6f89, #3991a2, #54a4b0, #6eb8be, #88cccc, #a0d6d6, #b7e0e0, #cdeaea, #e3f4f4); */
+    background-image: linear-gradient(to top, #232323, #1c1c1c, #151515, #0c0c0c, #000000);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 p{
     font-size: 13px;
@@ -91,18 +99,17 @@ h2{
     color: #66bfbf;
 }
 hr{
-    border-color: #D4D4D4;
+    border-color: #fff;
     border-style: none;
     border-top-style: dotted;
-    width: 4%;
-    border-width: 5px;
+    width: 2%;
+    border-width: 7px;
 }
 table{
     border-color: #66bfbf;
 }
 .profile-pic{
-    height: 175px;
-    border:3px solid #116A7B;
+    height: 200px;
     border-radius: 100%;
     filter: drop-shadow(3px 3px 10px black);
 }
@@ -132,11 +139,13 @@ th{
 }
 #name{
     font-family:"Lemon Milk";
-    font-size: 40px;
+    font-size: 60px;
+    color: white;
+    margin: 10px;
 }
 #name:hover{
-    font-size: 40px;
-    color: #116A7B;
+    font-size: 60px;
+    color: #ffa6c1;
 }
 label{
     color:#116A7B;
@@ -230,4 +239,62 @@ label{
     padding-left: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    background-repeat: no-repeat;
+}
+#particles-js{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    height: 100vh;
+	animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#education{
+    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    height: 100vh;
+}
+#hobbies{
+    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    height: 100vh;
+}
+#Skill-list{
+    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    height: 100vh;
+}
+#others{
+    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    height: 100vh;
+}
+section {
+    scroll-snap-align: start;
+}
+.Header-intro{
+    font-size: 15px;
+    font-family: "Sora";
+    color: #ffff;
+}
+.Header-intro-link {
+    font-size: 15px;
+    font-family: "Sora";
+    color: #ffff;
+}
+canvas{
+    display:block;
+}
+.Header-content {
+    position: absolute;
+    width: auto;
+    text-align: center;
+    top: 30vh;
+    left: 50%;
+    margin: 0px 0 0 -250px;
 }
