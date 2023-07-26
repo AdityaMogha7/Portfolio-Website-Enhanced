@@ -77,10 +77,10 @@
 html {
     scroll-snap-type: y mandatory;
     /* scroll-padding-top: 50px; */
+    scroll-behavior: smooth;
 }
 body {
-    /* background: linear-gradient(to right bottom, #001432, #013050, #084f6e, #1e6f89, #3991a2, #54a4b0, #6eb8be, #88cccc, #a0d6d6, #b7e0e0, #cdeaea, #e3f4f4); */
-    background-image: linear-gradient(to top, #232323, #1c1c1c, #151515, #0c0c0c, #000000);
+    background-image: linear-gradient(to bottom, #000000, #141414, #212121, #2f2f2f, #3d3d3d, #4e4e4e, #606060, #737373, #8e8e8e, #aaaaaa, #c7c7c7, #e5e5e5);
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -99,7 +99,7 @@ h2{
     color: #66bfbf;
 }
 hr{
-    border-color: #fff;
+    border-color: #F3F3F3;
     border-style: none;
     border-top-style: dotted;
     width: 6%;
@@ -115,6 +115,7 @@ table{
 }
 a{
     color:#116A7B;
+    text-decoration: none;
 }
 h3{
     font-family: "montserrat";
@@ -247,6 +248,7 @@ label{
     height: 100vh;
     width: 100%;
 	animation: gradient 10s ease infinite;
+    filter: drop-shadow(0px 0px 30px black);
 }
 @keyframes gradient {
 	0% {
@@ -260,22 +262,22 @@ label{
 	}
 }
 #education{
-    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    /* background-image: linear-gradient(to left top, #2a494c, #25505a, #215669, #245b78, #325f87, #3e6c97, #4979a7, #5587b8, #5ea3cd, #6dbfe0, #83dbf0, #a0f7ff); */
     height: 100vh;
     width: 100%;
 }
 #hobbies{
-    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    /* background-image: linear-gradient(to left top, #ee31ff, #e240ff, #d54bff, #c954ff, #bd5bff, #a873ff, #9685ff, #8b94ff, #88aeff, #95c6ff, #afdbff, #d2edff); */
     height: 100vh;
     width: 100%;
 }
 #Skill-list{
-    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    /* background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242); */
     height: 100vh;
     width: 100%;
 }
 #others{
-    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242);
+    /* background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242); */
     height: 100vh;
     width: 100%;
 }
@@ -303,3 +305,25 @@ canvas{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.Header-buttons {
+    background: transparent;
+    border: 2px solid #3A3A3A;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sora;
+    margin: 5px;
+    margin-top: 10px;
+    color: #3A3A3A;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    border-style:dashed;
+}
+.Header-buttons:hover {
+    background-color: white;
+}
+
