@@ -80,7 +80,8 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: linear-gradient(to bottom, #000000, #141414, #212121, #2f2f2f, #3d3d3d, #4e4e4e, #606060, #737373, #8e8e8e, #aaaaaa, #c7c7c7, #e5e5e5);
+    /* background-image: linear-gradient(to bottom, #000000, #141414, #212121, #2f2f2f, #3d3d3d, #4e4e4e, #606060, #737373, #8e8e8e, #aaaaaa, #c7c7c7, #e5e5e5); */
+    background-color: black;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -202,36 +203,6 @@ label{
     font-family:"montserrat";
     color: #116A7B;
 }
-.nav_button{
-    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
-    padding: 10px 30px;
-    text-align: center;
-    border-radius: 10px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
-    border: none;
-    font-family: "montserrat";
-    font-weight: bold;
-    float: right;
-}
-.nav_button:hover{
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-}
-.box-container{
-    background-color: #F8F6F4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-    filter: drop-shadow(5px 5px 5px #D2E9E9);
-    padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 #contact-box{
     background-color: #F8F6F4;
     padding-top: 10px;
@@ -250,6 +221,18 @@ label{
     width: 100%;
 	animation: gradient 10s ease infinite;
     filter: drop-shadow(0px 0px 30px black);
+    position: relative;
+}
+#particles-js:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://images.pond5.com/tv-noise-1080p-photo-jpg-footage-000270141_prevstill.jpeg') repeat center;
+    opacity: 0.11;
+    mix-blend-mode: overlay;
+    z-index: -1;
 }
 @keyframes gradient {
 	0% {
@@ -262,23 +245,15 @@ label{
 		background-position: 0% 50%;
 	}
 }
-#education{
-    /* background-image: linear-gradient(to left top, #2a494c, #25505a, #215669, #245b78, #325f87, #3e6c97, #4979a7, #5587b8, #5ea3cd, #6dbfe0, #83dbf0, #a0f7ff); */
-    height: 100vh;
-    width: 100%;
-}
-#hobbies{
-    /* background-image: linear-gradient(to left top, #ee31ff, #e240ff, #d54bff, #c954ff, #bd5bff, #a873ff, #9685ff, #8b94ff, #88aeff, #95c6ff, #afdbff, #d2edff); */
-    height: 100vh;
-    width: 100%;
-}
 #Skill-list{
-    /* background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242); */
     height: 100vh;
     width: 100%;
 }
-#others{
-    /* background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f, #242424, #292929, #2e2e2e, #333333, #383838, #3d3d3d, #424242); */
+#Designs{
+    height: 100vh;
+    width: 100%;
+}
+#Contact{
     height: 100vh;
     width: 100%;
 }
