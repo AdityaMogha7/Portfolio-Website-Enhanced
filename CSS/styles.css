@@ -145,6 +145,7 @@ th{
     font-size: 60px;
     color: white;
     margin: 10px;
+    transition: 0.3s;
 }
 #name:hover{
     font-size: 60px;
@@ -198,6 +199,7 @@ label{
 .h3_links{
     font-family:"montserrat";
     color: #66bfbf;
+    transition: 0.3s;
 }
 .h3_links:hover{
     font-family:"montserrat";
@@ -299,6 +301,7 @@ canvas{
     font-family: montserrat;
     font-size: 14px;
     font-weight: bold;
+    transition: 0.3s;
 }
 .Header-buttons-center {
     background: transparent;
@@ -316,6 +319,7 @@ canvas{
     font-family: montserrat;
     font-size: 14px;
     font-weight: bold;
+    transition: 0.3s;
 }
 .Header-buttons-right {
     background: transparent;
@@ -335,6 +339,7 @@ canvas{
     font-family: montserrat;
     font-size: 14px;
     font-weight: bold;
+    transition: 0.3s;
 }
 .Header-buttons-all {
     background: transparent;
@@ -354,6 +359,7 @@ canvas{
     font-family: montserrat;
     font-size: 14px;
     font-weight: bold;
+    transition: 0.3s;
 }
 .Header-buttons-left:hover {
     background-color: white;
@@ -391,6 +397,7 @@ canvas{
     float: right;
     padding-right: 10px;
     padding-left: 10px;
+    transition: 0.3s;
 }
 .navbar-btn:hover{
     background-color:#ffa6c1;
@@ -402,6 +409,7 @@ canvas{
     padding-left: 10px;
     display: inline-block;
     font-size: 40px;
+    transition: 0.3s;
 }
 .nav-name:hover{
     color:#ffa6c1;
