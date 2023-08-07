@@ -6,8 +6,7 @@
                                                                                                         Contact Form Bg Color- #eaf6f6
                                                                                                         Dark Heading Color- #116A7B
 
-                                                                                                    } */
-
+                                                                                                    } */                                                                        
 @font-face {
     font-family: Lemon Milk;
     src: url('../Fonts/LemonMilk/LEMONMILK-Bold.otf');
@@ -142,6 +141,7 @@ th{
 }
 #name{
     font-family:"Lemon Milk";
+    font-weight: bold;
     font-size: 60px;
     color: white;
     margin: 10px;
